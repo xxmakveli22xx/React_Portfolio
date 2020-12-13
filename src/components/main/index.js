@@ -12,8 +12,9 @@ import Header from "../header/header.js";
         
     <div>
         <Header/>
+        <h1>Pete Hernandez</h1>
        <main class="container background" >
-          <h1>Pete Hernandez</h1>
+          
         <section class="row">
           <div class="col-sm-4">
             <img src={mypic} class="img_pete" alt="Pete_portrait"/>
@@ -33,17 +34,19 @@ import Header from "../header/header.js";
                </div>
              
          </section>
-         <ul class="contact_info">
-              <p><h7>Contact</h7>
-              <h8 class="phone">Phone: 210-386-3838</h8>
-              <a href="mailto:pete.g.hernandez@gmail.com">pete.g.hernandez.com</a>
-              <a href="https://www.linkedin.com/in/pete-hernandez-2948891b7/">Linkedin</a>
-              <a href="https://github.com/xxmakveli22xx">Github</a>
-              </p>
-         </ul>
         
 
         </main>
+
+    
+         <ul class="contact_info">
+              <p><h7>Contact </h7>
+              <h8 class="phone"> Phone: 210-386-3838 </h8>
+              <a href="mailto:pete.g.hernandez@gmail.com"> pete.g.hernandez.com </a>
+              <a href="https://www.linkedin.com/in/pete-hernandez-2948891b7/"> Linkedin </a>
+              <a href="https://github.com/xxmakveli22xx"> Github </a>
+              </p>
+         </ul>
 
     </div>
        
