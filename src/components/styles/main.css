@@ -1,6 +1,5 @@
 .img_pete{
-   padding: 10px;
-   padding-right: 10px;
+    
 
 }
 .bio{
@@ -9,7 +8,8 @@
 
 .background{
    background-image:  url('../images/analytics.jpg');
-   background-attachment: fixed;
+   background-size: auto;
+   
 
 }
 
@@ -17,4 +17,9 @@ h1{
     padding-left: .25em;
     text-align: center;
 
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

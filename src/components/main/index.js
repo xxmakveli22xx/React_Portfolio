@@ -3,13 +3,15 @@ import mypic from "../images/pete_portrait.jpeg";
 import "../styles/main.css";
 import "react-bootstrap/Navbar";
 import "react-bootstrap/Nav";
+import Header from "../header/header.js";
 
 
  export default function Main() {
  
       return (
-    
+        
     <div>
+        <Header/>
        <main class="container background" >
           <h1>Pete Hernandez</h1>
         <section class="row">
