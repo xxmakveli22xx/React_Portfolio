@@ -1,7 +1,7 @@
 
 import React from "react";
-// import Navbar from 'react-bootstrap/Navbar';
-// import Nav from 'react-bootstrap/Nav';
+import "react-bootstrap/Navbar";
+import "react-bootstrap/Nav";
 
 
  export default function Main() {
