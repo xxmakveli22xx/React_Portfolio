@@ -1,5 +1,6 @@
-// import mypic from "./images/Pete_portrait.jpeg";
 import React from "react";
+import mypic from "../images/pete_portrait.jpeg";
+import "../styles/main.css";
 import "react-bootstrap/Navbar";
 import "react-bootstrap/Nav";
 
@@ -9,12 +10,14 @@ import "react-bootstrap/Nav";
       return (
     
     <div>
-       <main class="container" >
-          <h1 >Pete Hernandez</h1>
+       <main class="container background" >
+          <h1>Pete Hernandez</h1>
         <section class="row">
-            {/* <img src={mypic} class="img_pete" alt="Pete_portrait" style="padding: 10px; padding-right: 10px;"/> */}
+          <div class="col-sm-4">
+            <img src={mypic} class="img_pete" alt="Pete_portrait"/>
+          </div>
                <div class="col-sm-8">
-                  <p >
+                  <p class="bio">
                   I have always wanted to be a in the IT world. Ever since I can remember I was always intrigued with computers.
                   My passion for computers started many years ago when in our class we were able to sit down by the computers
                   and turn them on. Low and behold the first thing that came on the screen was the classic Apple McIntosh logo followed by
@@ -28,7 +31,18 @@ import "react-bootstrap/Nav";
                </div>
              
          </section>
+         <ul class="contact_info">
+              <p><h7>Contact</h7>
+              <h8 class="phone">Phone: 210-386-3838</h8>
+              <a href="mailto:pete.g.hernandez@gmail.com">pete.g.hernandez.com</a>
+              <a href="https://www.linkedin.com/in/pete-hernandez-2948891b7/">Linkedin</a>
+              <a href="https://github.com/xxmakveli22xx">Github</a>
+              </p>
+         </ul>
+        
+
         </main>
+
     </div>
        
       );

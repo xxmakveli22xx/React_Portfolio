@@ -1,0 +1,14 @@
+.img_pete{
+   padding: 10px;
+   padding-right: 10px;
+
+}
+.bio{
+    font-size: large;
+}
+
+.background{
+   background-image:  url('../images/analytics.jpg');
+   background-attachment: fixed;
+
+}
