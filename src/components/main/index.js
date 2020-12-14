@@ -19,7 +19,7 @@ import Header from "../header/header.js";
           <div class="col-sm-4">
             <img src={mypic} class="img_pete" alt="Pete_portrait"/>
           </div>
-               <div class="col-sm-8">
+               <div md= "auto" class="col-sm-8">
                   <p class="bio">
                   I have always wanted to be a in the IT world. Ever since I can remember I was always intrigued with computers.
                   My passion for computers started many years ago when in our class we were able to sit down by the computers
@@ -40,10 +40,10 @@ import Header from "../header/header.js";
 
     
          <ul class="contact_info">
-              <p><h7>Contact </h7>
-              <h8 class="phone"> Phone: 210-386-3838 </h8>
-              <a href="mailto:pete.g.hernandez@gmail.com"> pete.g.hernandez.com </a>
-              <a href="https://www.linkedin.com/in/pete-hernandez-2948891b7/"> Linkedin </a>
+              <p><h7>Contact </h7><br></br>
+              <h8 class="phone"> Phone: 210-386-3838 </h8><br></br>
+              <a href="mailto:pete.g.hernandez@gmail.com"> pete.g.hernandez.com </a><br></br>
+              <a href="https://www.linkedin.com/in/pete-hernandez-2948891b7/"> Linkedin </a><br></br>
               <a href="https://github.com/xxmakveli22xx"> Github </a>
               </p>
          </ul>

@@ -5,17 +5,10 @@
 }
 .bio{
     padding-top: .20em;
-    color: whitesmoke;
+    color: black;
     font-family: sans-serif;
     font-size: large;
-}
-
-.background{
-   background-image:  url('../images/analytics.jpg');
-   
-  
-   
-
+    
 }
 
 h1{
